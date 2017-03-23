@@ -16,6 +16,15 @@ This work utilized NMT [1] for low-resource languages. Experiments were conducte
 
 5. Czech-Vietnamese
 
+# Dependencies
+
+https://github.com/rsennrich/nematus 
+
+https://github.com/rsennrich/subword-nmt
+
+https://github.com/moses-smt/mosesdecoder
+
+
 
 # References
 
