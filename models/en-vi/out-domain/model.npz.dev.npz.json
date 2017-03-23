@@ -67,7 +67,7 @@
   "validFreq": 3000, 
   "valid_batch_size": 60, 
   "valid_datasets": [
-    "data//IWSLT15.TED.tst2012.en-vi.en.truecase.bpe.en", 
-    "data//IWSLT15.TED.tst2012.en-vi.en.truecase.bpe.vi"
+    "data//IWSLT15.TED.tst2012.en-vi.truecase.bpe.en", 
+    "data//IWSLT15.TED.tst2012.en-vi.truecase.bpe.vi"
   ]
 }
