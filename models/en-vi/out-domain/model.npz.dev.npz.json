@@ -2,15 +2,15 @@
   "batch_size": 60, 
   "clip_c": 1.0, 
   "datasets": [
-    "data//jaist-train.tc.bpe.en", 
-    "data//jaist-train.tc.bpe.vi"
+    "data//train.tags.en-vi.out-domain.truecase.bpe.en", 
+    "data//train.tags.en-vi.out-domain.truecase.bpe.vi"
   ], 
   "decay_c": 0.0, 
   "decoder": "gru_cond", 
   "decoder_truncate_gradient": -1, 
   "dictionaries": [
-    "data//jaist-train.tc.bpe.en.json", 
-    "data//jaist-train.tc.bpe.vi.json"
+    "data//train.tags.en-vi.out-domain.truecase.bpe.en.json", 
+    "data//train.tags.en-vi.out-domain.truecase.bpe.vi.json"
   ], 
   "dim": 1024, 
   "dim_per_factor": [
@@ -67,7 +67,7 @@
   "validFreq": 3000, 
   "valid_batch_size": 60, 
   "valid_datasets": [
-    "data//tst2012.tc.bpe.en", 
-    "data//tst2012.tc.bpe.vi"
+    "data//IWSLT15.TED.tst2012.en-vi.en.truecase.bpe.en", 
+    "data//IWSLT15.TED.tst2012.en-vi.en.truecase.bpe.vi"
   ]
 }
