@@ -45,3 +45,4 @@ https://github.com/moses-smt/mosesdecoder
 [8] Thu, Y. K.; Pa, W. P.; Utiyama, M.; Finch, A.; and Sumita, E. 2016. Introducing the asian language treebank (alt). In Proceedings of the Tenth International Conference on Language Resources and Evaluation (LREC), 1574–1578.
 http://www2.nict.go.jp/astrec-att/member/mutiyama/ALT/
 
+[9] VLSP Project: https://vlsp.hpda.vn/demo/?&lang=en
