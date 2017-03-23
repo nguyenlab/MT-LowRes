@@ -16,4 +16,4 @@
 
 # Postprocess the translation output
 
-  ./postprocess-test.sh < data/IWSLT15.TED.tst2015.cs-en.truecase.hyp.en > data/IWSLT15.TED.tst2015.cs-en.truecase.hyp.en.postprocessed
+  ./postprocess-test.sh < data/IWSLT15.TED.tst2015.en-vi.truecase.hyp.vi > data/IWSLT15.TED.tst2015.en-vi.truecase.hyp.vi.postprocessed
