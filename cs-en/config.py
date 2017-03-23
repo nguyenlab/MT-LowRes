@@ -21,7 +21,7 @@ from nematus.nmt import train
 
 if __name__ == '__main__':
     validerr = train(saveto='model/model.npz',
-                    finish_after=30000,
+                    finish_after=300000,
                     reload_=True,
                     dim_word=500,
                     dim=1024,
