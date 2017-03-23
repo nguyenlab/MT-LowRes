@@ -2,15 +2,15 @@
   "batch_size": 60, 
   "clip_c": 1.0, 
   "datasets": [
-    "data//europarl-v7.esfr-en.bpe.es", 
-    "data//europarl-v7.esfr-en.bpe.fr"
+    "data//train.tags.cs-vi.truecase.bpe.cs", 
+    "data//train.tags.cs-vi.truecase.bpe.vi"
   ], 
   "decay_c": 0.0, 
   "decoder": "gru_cond", 
   "decoder_truncate_gradient": -1, 
   "dictionaries": [
-    "data//europarl-v7.esfr-en.bpe.es.json", 
-    "data//europarl-v7.esfr-en.bpe.fr.json"
+    "data//train.tags.cs-vi.truecase.bpe.cs.json", 
+    "data//train.tags.cs-vi.truecase.bpe.vi.json"
   ], 
   "dim": 1024, 
   "dim_per_factor": [
@@ -67,7 +67,7 @@
   "validFreq": 3000, 
   "valid_batch_size": 60, 
   "valid_datasets": [
-    "data//newstest2011.bpe.es", 
-    "data//newstest2011.bpe.fr"
+    "data//IWSLT15.TED.tst2012.cs-vi.truecase.bpe.cs", 
+    "data//IWSLT15.TED.tst2012.cs-vi.truecase.bpe.vi"
   ]
 }
