@@ -2,15 +2,15 @@
   "batch_size": 80, 
   "clip_c": 1.0, 
   "datasets": [
-    "data//corpus.bpe.en", 
-    "data//corpus.bpe.vi"
+    "data//train.tags.en-vi.in-domain.truecase.bpe.en", 
+    "data//train.tags.en-vi.in-domain.truecase.bpe.vi"
   ], 
   "decay_c": 0.0, 
   "decoder": "gru_cond", 
   "decoder_truncate_gradient": -1, 
   "dictionaries": [
-    "data//corpus.bpe.en.json", 
-    "data//corpus.bpe.vi.json"
+    "data//train.tags.en-vi.in-domain.truecase.bpe.en.json", 
+    "data//train.tags.en-vi.in-domain.truecase.bpe.vi.json"
   ], 
   "dim": 1024, 
   "dim_per_factor": [
@@ -67,7 +67,7 @@
   "validFreq": 3000, 
   "valid_batch_size": 80, 
   "valid_datasets": [
-    "data//newsdev2016.bpe.en", 
-    "data//newsdev2016.bpe.vi"
+    "data//IWSLT15.TED.tst2012.en-vi.truecase.bpe.en", 
+    "data//IWSLT15.TED.tst2012.en-vi.truecase.bpe.vi"
   ]
 }
