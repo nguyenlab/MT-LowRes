@@ -2,7 +2,7 @@
 
   ./preprocess.sh
 
-#Configurations
+# Configurations
 
    Edit the file: config.py
   
