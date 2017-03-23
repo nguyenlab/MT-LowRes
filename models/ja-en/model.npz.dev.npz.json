@@ -1,0 +1,73 @@
+{
+  "batch_size": 60, 
+  "clip_c": 1.0, 
+  "datasets": [
+    "data//kyoto-train.cln.bpe.ja", 
+    "data//kyoto-train.cln.bpe.en"
+  ], 
+  "decay_c": 0.0, 
+  "decoder": "gru_cond", 
+  "decoder_truncate_gradient": -1, 
+  "dictionaries": [
+    "data//kyoto-train.cln.bpe.ja.json", 
+    "data//kyoto-train.cln.bpe.en.json"
+  ], 
+  "dim": 1024, 
+  "dim_per_factor": [
+    500
+  ], 
+  "dim_word": 500, 
+  "dispFreq": 500, 
+  "domain_interpolation_inc": 0.1, 
+  "domain_interpolation_indomain_datasets": [
+    "indomain.en", 
+    "indomain.fr"
+  ], 
+  "domain_interpolation_max": 1.0, 
+  "domain_interpolation_min": 0.1, 
+  "dropout_embedding": 0.2, 
+  "dropout_hidden": 0.2, 
+  "dropout_source": 0.1, 
+  "dropout_target": 0.1, 
+  "encoder": "gru", 
+  "encoder_truncate_gradient": -1, 
+  "external_validation_script": "./validate.sh", 
+  "factors": 1, 
+  "finish_after": 90000, 
+  "lrate": 0.02, 
+  "map_decay_c": 0.0, 
+  "max_epochs": 5000, 
+  "maxibatch_size": 20, 
+  "maxlen": 50, 
+  "model_version": 0.1, 
+  "mrt_alpha": 0.005, 
+  "mrt_loss": "SENTENCEBLEU n=4", 
+  "mrt_ml_mix": 0, 
+  "mrt_reference": false, 
+  "mrt_samples": 100, 
+  "mrt_samples_meanloss": 10, 
+  "n_words": 58550, 
+  "n_words_src": 45494, 
+  "objective": "CE", 
+  "optimizer": "adadelta", 
+  "overwrite": false, 
+  "patience": 10, 
+  "prior_model": null, 
+  "reload_": true, 
+  "reload_training_progress": true, 
+  "sampleFreq": 3000, 
+  "saveFreq": 6000, 
+  "saveto": "model/model.npz", 
+  "shuffle_each_epoch": true, 
+  "sort_by_length": true, 
+  "tie_decoder_embeddings": false, 
+  "tie_encoder_decoder_embeddings": false, 
+  "use_domain_interpolation": false, 
+  "use_dropout": false, 
+  "validFreq": 3000, 
+  "valid_batch_size": 60, 
+  "valid_datasets": [
+    "data//kyoto-tune.bpe.ja", 
+    "data//kyoto-tune.bpe.en"
+  ]
+}
