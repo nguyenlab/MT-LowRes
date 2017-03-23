@@ -2,7 +2,7 @@ import numpy
 import os
 import sys
 
-#VOCAB_SIZE = 30000
+
 SRC_VOCAB_SIZE = 64168
 TRG_VOCAB_SIZE = 32772
 
