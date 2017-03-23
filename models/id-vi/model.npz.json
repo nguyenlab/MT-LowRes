@@ -67,7 +67,7 @@
   "validFreq": 3000, 
   "valid_batch_size": 80, 
   "valid_datasets": [
-    "data//newsdev2016.bpe.id", 
-    "data//newsdev2016.bpe.vi"
+    "data//tune.bpe.id", 
+    "data//tune.bpe.vi"
   ]
 }
