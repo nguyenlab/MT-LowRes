@@ -2,15 +2,15 @@
   "batch_size": 60, 
   "clip_c": 1.0, 
   "datasets": [
-    "data//train.rm-tags.cs-en2vi.clean.bpe.cs", 
-    "data//train.rm-tags.cs-en2vi.clean.bpe.vi"
+    "data//train.tags.cs-vi.synthetic.truecase.bpe.cs", 
+    "data//train.tags.cs-vi.synthetic.truecase.bpe.vi"
   ], 
   "decay_c": 0.0, 
   "decoder": "gru_cond", 
   "decoder_truncate_gradient": -1, 
   "dictionaries": [
-    "data//train.rm-tags.cs-en2vi.clean.bpe.cs.json", 
-    "data//train.rm-tags.cs-en2vi.clean.bpe.vi.json"
+    "data//train.tags.cs-vi.synthetic.truecase.bpe.cs.json", 
+    "data//train.tags.cs-vi.synthetic.truecase.bpe.vi.json"
   ], 
   "dim": 1024, 
   "dim_per_factor": [
