@@ -38,7 +38,7 @@ https://github.com/moses-smt/mosesdecoder
 
 [5] Rico Sennrich, Barry Haddow, Alexandra Birch (2016): Improving Neural Machine Translation Models with Monolingual Data. Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (ACL 2016). Berlin, Germany.
 
-[6] Cettolo, M.; Niehues, J.; St ̈uker, S.; Bentivogli, L.; Cattoni,R.; and Federico, M.  2015.  The iwslt 2015 evaluation cam-paign.Proceedings of the International Workshop on SpokenLanguage Translation (IWSLT). https://sites.google.com/site/iwsltevaluation2015/mt-track,  https://wit3.fbk.eu/
+[6] Cettolo, M.; Niehues, J.; St ̈uker, S.; Bentivogli, L.; Cattoni,R.; and Federico, M.  2015.  The iwslt 2015 evaluation cam-paign.Proceedings of the International Workshop on SpokenLanguage Translation (IWSLT). https://sites.google.com/site/iwsltevaluation2015/mt-track,  https://wit3.fbk.eu/mt.php?release=2015-01
 
 [7] Neubig, G. 2011. The Kyoto free translation task. http://www.phontron.com/kftt.
 
