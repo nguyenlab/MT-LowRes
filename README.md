@@ -4,7 +4,7 @@ The repository is for the following research:
 
 Utilizing Neural Machine Translation for Low-Resource Languages
 
-This work utilized NMT [1] for low-resource languages. Experiments were conducted on the following language pairs:
+This work utilized Neural Machine Translation [1] for low-resource languages. Experiments were conducted on the following language pairs:
 
 1. Japanese-English
 
