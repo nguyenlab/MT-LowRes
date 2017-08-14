@@ -1,4 +1,4 @@
-# NMT_LowRec
+# MT on Low-Resource Languages
 
 The repository is for the following research:
 
