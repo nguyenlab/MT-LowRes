@@ -48,3 +48,9 @@ https://github.com/moses-smt/mosesdecoder
 http://www2.nict.go.jp/astrec-att/member/mutiyama/ALT/
 
 [9] VLSP Project: https://vlsp.hpda.vn/demo/?&lang=en
+
+[10] Philipp Koehn, Franz Josef Och, and Daniel Marcu. 2003. Statistical phrase-based translation. In Proceedings of the 2003 Conference of the North American Chapter of the Association for Computational Linguistics on Human Language Technology-Volume 1, pages
+48–54. Association for Computational Linguistics.
+
+[11] Philipp Koehn, Hieu Hoang, Alexandra Birch, Chris Callison-Burch, Marcello Federico, Nicola Bertoldi, Brooke Cowan, Wade Shen, Christine Moran, Richard Zens, et al. 2007. Moses: Open source toolkit for statistical machine translation. In Proceedings of ACL,
+pages 177–180. Association for Computational Linguistics.
