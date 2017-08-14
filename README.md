@@ -2,19 +2,19 @@
 
 The repository is for the following research:
 
-Utilizing Neural Machine Translation for Low-Resource Languages
+## Investigating Phrase-Based and Neural-Based Machine Translation onLow-Resource Settings
 
-This work utilized Neural Machine Translation [1] for low-resource languages. Experiments were conducted on the following language pairs:
+We conduct an investigation of phrase-based and neural-based machine translation on low-resource language pairs, which contain small bilingual corpora. Experiments were conducted on several language pairs:
 
 1. Japanese-English
 
-2. Czech-English
+2. English-Vietnamese
 
-3. English-Vietnamese
+3. Indonesian-Vietnamese
 
-4. Indonesian-Vietnamese
+4. Czech-Vietnamese
 
-5. Czech-Vietnamese
+
 
 # Dependencies
 
@@ -23,6 +23,8 @@ https://github.com/rsennrich/nematus
 https://github.com/rsennrich/subword-nmt
 
 https://github.com/moses-smt/mosesdecoder
+
+
 
 
 
